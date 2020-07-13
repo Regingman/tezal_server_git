@@ -2,10 +2,7 @@ package tezAlServer.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import sun.misc.JavaAWTAccess;
 import tezAlServer.domain.Order;
-import tezAlServer.domain.Rate;
-import tezAlServer.domain.Sale;
 
 import java.util.List;
 
