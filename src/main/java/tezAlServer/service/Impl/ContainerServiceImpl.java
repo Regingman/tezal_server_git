@@ -53,6 +53,6 @@ public class ContainerServiceImpl  implements ContainerService {
     @Override
     public List<Container> getAllById(Long id, Pageable pageable) {
 
-        return containersRepo.getContainerByContainerCategoryId(id, pageable);
+        return containersRepo.getContainerByContainerCategoryId(id);
     }
 }
