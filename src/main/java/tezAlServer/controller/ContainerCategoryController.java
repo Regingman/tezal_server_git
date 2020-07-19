@@ -36,7 +36,7 @@ public class ContainerCategoryController {
         List<ContainerCategory> allContainerCategory = new ArrayList<>();
         List<AllContainersByCategory> allContainersByCategories = new ArrayList<>();
         allContainerCategory = containerCategoryService.findAll();
-        for(int i = 0;i<=allContainerCategory.size();i++){
+        for(int i = 0;i<allContainerCategory.size();i++){
             allContainersByCategories.add(AllContainersByCategory.fromUser(
                     containersRepo.getContainerByContainerCategoryId(allContainerCategory.get(i).getId()),
                     allContainerCategory.get(i)));
